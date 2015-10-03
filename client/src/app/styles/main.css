@@ -7,6 +7,9 @@
 
 body {
   padding: 0;
+  background: url("http://theartmad.com/wp-content/uploads/2015/06/Arnold-Schwarzenegger-14.jpg");
+  background-position: -400px -50px;
+  background-repeat: repeat-x;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -19,7 +22,6 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -34,17 +36,23 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
   margin: 30px 0;
 }
 
+.mainContent {
+  padding: 15px !important;
+  background: rgba(232,232,232, 0.5);
+  border-radius: 6px;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .jumbotron .btn {
   font-size: 21px;
