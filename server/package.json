@@ -1,0 +1,25 @@
+{
+  "name": "deffcomp2-server",
+  "version": "1.0.0",
+  "description": "Incredible deffcomp2 server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Deffcomp2"
+  },
+  "keywords": [
+    "deffcomp",
+    "arnold",
+    "fitness",
+    "strength",
+    "beach2016"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
